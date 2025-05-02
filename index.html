@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcel Gutu | AI Developer & Creator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <nav class="navbar">
+        <div class="nav-brand">Marcel Gutu</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+        </button>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Marcel Gutu</span></h1>
+            <h2>AI & Software Developer </h2>
+            <p class="quote">"Precision in code, clarity in thought, elegance in design."</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Get in Touch</a>
+                <a href="Marcel_Gutu_CV.pdf" download class="btn cv-btn">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/profile.jpg" alt="Marcel Gutu">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>I'm Marcel — an AI graduate, builder, and creator who enjoys shaping both digital systems and physical forms. My work blends artificial intelligence, clean code, and philosophical thinking, drawing inspiration from Stoicism, Taoism, and the pursuit of elegant simplicity.</p>
+            <p>I've developed apps, simulations, and tools that solve real problems — from a voice-enabled gym tracker to evolutionary game theory models using Unreal Engine. I build with languages like Java, Python, Kotlin, and C#, and I enjoy pushing tech into unexpected places.</p>
+            <p>Beyond the screen, I train in martial arts, sculpt, and play guitar — disciplines that ground me and sharpen my focus.</p>
+            <p>For me, tech isn't just about functionality. It's about meaning, precision, and impact.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">C#</span>
+                    <span class="skill-tag">Kotlin</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>AI & ML</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">TensorFlow</span>
+                    <span class="skill-tag">ChatGPT API</span>
+                    <span class="skill-tag">Machine Learning</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Game Development</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Unreal Engine</span>
+                    <span class="skill-tag">Game Theory</span>
+                    <span class="skill-tag">Simulations</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="languages" class="languages">
+        <h2>Languages</h2>
+        <div class="language-list">
+            <span class="language-tag">English</span>
+            <span class="language-tag">Romanian</span>
+            <span class="language-tag">Russian</span>
+            <span class="language-tag">Italian</span>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Ameron22" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/marcel-gutu-a63b4a266/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:marcel.gutu00@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>&copy; 2024 Marcel Gutu. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('light-theme');
+            body.classList.toggle('dark-theme');
+        });
+    </script>
+</body>
+</html> 
